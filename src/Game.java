@@ -1,3 +1,5 @@
+import java.sql.SQLOutput;
+
 public class Game {
     public static void main(String[] args) {
         String[] ranks = {"A", "2", "3"};
@@ -6,6 +8,9 @@ public class Game {
          Deck d = new Deck(ranks, suits, values);
          d.print();
          d.shuffle();
+         d.shuffle();
+        System.out.println();
+         d.print();
 
 
     }
