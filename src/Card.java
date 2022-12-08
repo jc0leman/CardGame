@@ -2,6 +2,7 @@ public class Card {
     String rank;
     String suit;
     int values;
+    //constructor that takes in a rank, suit, and assigns it a value
     public Card(String rank, String suit, int values)
     {
      this.rank = rank;
@@ -13,7 +14,7 @@ public class Card {
     {
         this.rank = rank;
     }
-
+    //Whole bunch of getter setter methods that I dont use but are on the criteria for completion
     public String getRank() {
         return rank;
     }
